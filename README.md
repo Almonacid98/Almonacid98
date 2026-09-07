@@ -62,40 +62,60 @@ Actualmente continúo desarrollando proyectos para fortalecer mis conocimientos 
 
 # 📂 Proyectos destacados
 
-## 🎬 Streaming Platform
+## 🎬 [Streaming Platform](https://github.com/Almonacid98/streaming-platform)
 
-Backend para una plataforma de streaming desarrollado como proyecto académico/personal.
+Plataforma web de streaming desarrollada con una arquitectura **Frontend + Backend**, orientada a la gestión de usuarios, contenido audiovisual y visualizaciones.
 
 **Tecnologías:**
 
-`Python` · `Django` · `Django REST Framework` · `PostgreSQL` · `SQLite` · `Docker` · `Git`
+`Python` · `Django` · `Django REST Framework` · `React` · `Vite` · `JavaScript` · `PostgreSQL` · `SQLite` · `Docker` · `Git`
 
-### Características
+### 🚀 Características
 
-- 🔗 API REST
+- 🔗 Desarrollo de API REST con Django REST Framework
+- ⚛️ Frontend desarrollado con React
+- 🔐 Autenticación mediante JWT
+- 🚪 Logout y blacklist de tokens
 - 🗃️ Gestión de datos mediante Django ORM
-- 🐘 Integración con bases de datos relacionales
-- 🔐 Panel administrativo de Django
-- 🌐 Configuración de CORS
-- 📚 Documentación de API
-- 🐳 Entorno preparado para Docker
+- 🐘 Bases de datos relacionales
+- 🎬 Gestión de usuarios, contenido y visualizaciones
+- 🌐 Integración entre frontend y backend mediante HTTP
+- 🔧 Configuración de CORS
+- 🛠️ Panel administrativo de Django
+- 📚 Documentación de la API
+- 🐳 Uso de Docker
+
+➡️ **[Ver repositorio](https://github.com/Almonacid98/streaming-platform)**
 
 ---
 
-## ✅ TaskFile
+## 📁 [DistFileTask - Sistema Distribuido de Gestión de Archivos](https://github.com/Almonacid98/distfiletask)
 
-Aplicación orientada a la **gestión y organización de tareas**, desarrollada como práctica de programación y estructuración de aplicaciones.
+Sistema distribuido para la **carga, procesamiento, almacenamiento y descarga de archivos**, desarrollado utilizando una arquitectura basada en múltiples servicios.
 
-El proyecto me permite trabajar conceptos relacionados con:
+**Tecnologías:**
 
-- Organización y gestión de información
-- Lógica de programación
-- Estructuración de aplicaciones
-- Persistencia y manipulación de datos
-- Desarrollo de funcionalidades CRUD
+`Python 3.11` · `Sockets TCP` · `PostgreSQL` · `Docker` · `Docker Compose` · `JSON` · `Base64`
 
----
+### 🚀 Características
 
+- 🧩 Arquitectura distribuida y separación de responsabilidades
+- 🌐 Comunicación mediante sockets TCP
+- ⚡ Servidor multihilo para múltiples clientes concurrentes
+- 🔄 Comunicación entre diferentes componentes del sistema
+- 📦 Protocolo de aplicación con JSON y Base64
+- 🐘 Persistencia de archivos binarios en PostgreSQL
+- 🐳 Contenerización con Docker
+- ⚙️ Orquestación mediante Docker Compose
+- 📤 Carga de archivos
+- 📥 Recuperación y descarga de archivos
+- 🔌 Mecanismos de comunicación entre procesos (IPC)
+
+### 🏗️ Arquitectura
+
+`Cliente → Server/Gateway → Worker API → Worker DB → PostgreSQL`
+
+➡️ **[Ver repositorio](https://github.com/Almonacid98/distfiletask)**
 ## 📁 Manejador de Archivos
 
 Proyecto orientado a la **administración y manipulación de archivos y directorios**.
